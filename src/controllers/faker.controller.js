@@ -1,5 +1,7 @@
 import { faker } from "@faker-js/faker";
 
+faker.locale = "es";
+
 const fakerData = () => {
   let products = [];
   for (let i = 0; i < 5; i++) {
