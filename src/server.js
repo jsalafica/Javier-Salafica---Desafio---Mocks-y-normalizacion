@@ -5,7 +5,6 @@ import { fileURLToPath } from "url";
 import { engine } from "express-handlebars";
 import routes from "./routes/index.js";
 import Contenedor from "./api.js";
-import { faker } from "@faker-js/faker";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
